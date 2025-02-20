@@ -1,0 +1,19 @@
+---
+import LikeButton from "../components/LikeButton";
+import Layout from "../layouts/Layout.astro";
+import LikeButtonWrapper from "../components/LikeButtonWrapper";
+---
+
+<Layout title="My Island Architecture Blog">
+    <main>
+        <h1>Welcome to My Blog</h1>
+        <LikeButtonWrapper client:only="react" />
+        <article>
+            <h2>Understanding Island Architecture</h2>
+            <p>
+                Island Architecture is a modern web development approach that
+                combines static and dynamic content...
+            </p>
+        </article>
+    </main>
+</Layout>
