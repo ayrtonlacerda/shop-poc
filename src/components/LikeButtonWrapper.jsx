@@ -1,4 +1,5 @@
-import LikeButton from "http://localhost:3001/bundle.js";
+//import LikeButton from "http://http://192.168.68.103:3001/bundle.js";
+import LikeButton from "https://unpkg.com/@ayrton.lacerda/likebutton@1.0.0/dist/bundle.js";
 //import LikeButton from "http://localhost:3000";
 //import LikeButton from "http://localhost:3001/assets/remoteEntry.js";
 import React from "react";
